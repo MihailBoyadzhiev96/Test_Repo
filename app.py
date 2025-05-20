@@ -1,5 +1,5 @@
 from playwright.sync_api import sync_playwright
-
+# Test Github Actions
 with sync_playwright() as playwright:
     # Lauch a browser
     browser = playwright.chromium.launch(headless=False, slow_mo=500)
